@@ -61,6 +61,8 @@ g++ main.cpp -o llm -std=c++17
 LLM_in_Cpp/
 ├── main.cpp            # Core code for the LLM
 ├── README.md           # Project documentation
+├── include
+├── src
 ```
 
 ---
