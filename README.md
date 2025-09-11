@@ -16,7 +16,7 @@ This project implements the foundational components of a Transformer-based LLM, 
 * **Feed-Forward Network (FFN):** Simple two-layer MLP applied per token.
 * **Layer Normalization & Residual Connections:** Stabilizes training and helps gradient flow.
 * **Mini Transformer Block:** Combines MHA + FFN + LayerNorm + Residuals.
-
+* **Multiple stacked transformer encoder:** Combines multiple tranformer block.
 ---
 
 ## Project Motivation
@@ -70,7 +70,6 @@ LLM_in_Cpp/
 ## Future Work / To-Do
 
 * Implement **training on small text corpus**.
-* Extend **multiple stacked Transformer blocks**.
 * Save/load model weights for inference.
 * Add **GPU acceleration** using CUDA.
 * Support **larger vocabulary and batch processing**.
@@ -80,5 +79,5 @@ LLM_in_Cpp/
 ## References
 
 * Vaswani et al., “Attention Is All You Need” (2017)
-* Transformer and LLM tutorials in Python/PyTorch
+* Transformer and LLM tutorials in Python/PyTorch by andrej karapathy, george hotz and umar jamil
 * C++ linear algebra and matrix operations references
